@@ -1,0 +1,165 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 100;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 940px; 
+    padding: 0 10px;
+  }
+  
+  .header {
+    background: url(https://images.pexels.com/photos/1556704/pexels-photo-1556704.jpeg) no-repeat center center; 
+    background-size: cover;
+    height: 800px;
+    text-align: center; 
+  }
+  
+  .header .container {
+    position: relative;
+    top: 200px;
+    right: 250px;
+  }
+  
+  .header h1 {
+    color: #fff;
+    line-height: 100px; 
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-transform: uppercase; 
+  }
+  
+  @media (min-width:850px) {
+    .header h1 {
+      font-size: 120px;
+    }
+  }
+  
+  .header p {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    text-transform: uppercase; 
+    font-size: 40px;
+  }
+  
+  .btn {
+    color: #fff;
+    background: #000;
+    padding: 10px 40px;
+    text-decoration: none; 
+    transition: background .5s; 
+    border-radius: 15px;
+  }
+  
+  .nav { 
+    background: #000;
+    height: 80px; 
+    width: 100%;
+  }
+  
+  .nav ul {
+    height: 80px;
+    list-style: none;
+    margin: 0 auto; 
+    padding: 0;
+  }
+  
+  .nav ul li {
+    color: #fff; 
+    height: 80px;
+    line-height: 80px; 
+    list-style: none;
+    padding: 10px; 
+    float: right;
+  }
+
+
+  .nav ul li:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    cursor: pointer;  
+  }
+
+  .btn:hover{
+    background: #57b1cf;
+    cursor: pointer;
+    transition: background .5s; 
+  }
+  
+  .main .container {
+    margin: 80px auto;
+    font-weight:300;
+    color: #666;
+  }
+  
+  .main img {
+    float: left;
+    margin: -30px 80px 50px 0;
+  }
+  
+  .connected {
+    background: url(https://images.pexels.com/photos/1356300/pexels-photo-1356300.jpeg) center center;
+    background-size: cover;
+    height: 600px; 
+  }
+  
+  .connected .container {
+    position: relative;
+    top: 220px;
+  }
+  
+  .connected h2 {
+    color: #fff;
+    text-align: right;
+    font-weight: bold; 
+  }
+  
+  .connected p {
+    color: #fff; 
+    text-align: right; 
+  }
+  
+  .connected .btn {
+    margin: 10px 0 0;
+    float: right; 
+  }
+  
+  .footer { 
+    background: #000;
+    height: 80px; 
+    padding-bottom: 50px;
+  }
+  
+  .footer p { 
+    color: #fff;
+    font-size: 14px;  
+    height: 80px; 
+    line-height: 80px;
+    margin: 0;  
+  }
+  
+  @media (max-width: 500px) {
+    .header h1 {
+      font-size: 50px;
+      line-height: 64px;
+    }
+  
+    .main, .connected {
+      padding: 0 30px;
+    }
+  
+    .main img {
+      width: 100%;
+    }
+  }
