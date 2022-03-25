@@ -1,0 +1,1 @@
+To alter the size of a picture append: ?cs=srgb&dl=pexels-*the pic code here*.jpg&fm=jpg&w=xxxx&h=xxxx
