@@ -103,19 +103,36 @@ html, body {
 
   
   .connected {
-    background: url(https://images.pexels.com/photos/3308588/pexels-photo-3308588.jpeg?cs=srgb&dl=pexels-3308588.jpg&fm=jpg&w=720&h=1280) center center;
+    background: url(https://images.pexels.com/photos/3073565/pexels-photo-3073565.jpeg?cs=srgb&dl=pexels-aslak-s%C3%B8nderland-3073565.jpg&fm=jpg&w=1280&h=1024) center center;
     background-size: cover;
     height: 600px; 
   }
 
-
-.connected iframe{
-  margin-top: 10px;
-  margin-left: 0px;
-}
+  .connected .container {
+    position: relative;
+    top: 100px;
+    right: 300px;
+  }
+  
+  .connected h1 {
+    color: #fff;
+    line-height: 100px; 
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase; 
+  }
 
   .connected p{
     color: #fff;
+    font-weight: 300;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    text-transform: uppercase; 
+    font-size: 25px;
+    right: 100px;
+    margin-left: 60px;
   }
   
   @media (max-width: 500px) {

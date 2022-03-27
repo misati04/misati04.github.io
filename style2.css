@@ -116,6 +116,7 @@ html, body {
   .connected .container {
     position: relative;
     top: 220px;
+    left: 200px;
   }
   
   .connected h2 {
